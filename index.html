@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timeline App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <h1>📅 TimelineApp</h1>
+    </div>
+    <button id="theme-toggle" aria-label="Toggle Theme">Toggle Theme</button>
+  </header>
+  <nav> </nav>
+  <main>
+    <section id="timeline" aria-label="Timeline of Events">
+      <article class="timeline-event">
+        <header>
+          <time datetime="1977">1977</time>
+          <h2>Introduction of the First Personal Computer</h2>
+        </header>
+        <figure>
+          <img src="computer.jpg" alt="Vintage personal computer" />
+          <figcaption>A revolution in computing</figcaption>
+        </figure>
+        <p>The first personal computer, introduced in 1977, revolutionized the way people interacted with technology.</p>
+        <p>These early systems were more affordable, paving the way for the digital age and transforming various industries.</p>
+        <footer>
+          <button>Learn More</button>
+        </footer>
+      </article>
+    </section>
+  </main>
+  <div id="modal" role="dialog" aria-modal="true" hidden>   </div>
+
+</body>
+</html>
