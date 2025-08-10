@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Timeline App</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
   <header>
@@ -15,27 +14,48 @@
     </div>
     <button id="theme-toggle" aria-label="Toggle Theme">Toggle Theme</button>
   </header>
-  <nav> </nav>
+
+  <nav class="filters">
+    
+  </nav>
+
   <main>
     <section id="timeline" aria-label="Timeline of Events">
+      
       <article class="timeline-event">
         <header>
           <time datetime="1977">1977</time>
           <h2>Introduction of the First Personal Computer</h2>
         </header>
         <figure>
-          <img src="computer.jpg" alt="Vintage personal computer" />
+          <img src="https://placehold.co/600x400/007bff/ffffff?text=PC+1977" alt="Vintage personal computer" />
           <figcaption>A revolution in computing</figcaption>
         </figure>
         <p>The first personal computer, introduced in 1977, revolutionized the way people interacted with technology.</p>
-        <p>These early systems were more affordable, paving the way for the digital age and transforming various industries.</p>
+        <footer>
+          <button>Learn More</button>
+        </footer>
+      </article>
+
+     
+      <article class="timeline-event">
+        <header>
+          <time datetime="1989">1989</time>
+          <h2>The World Wide Web is Invented</h2>
+        </header>
+        <figure>
+          <img src="https://placehold.co/600x400/28a745/ffffff?text=WWW" alt="Abstract representation of the World Wide Web" />
+          <figcaption>Connecting the world</figcaption>
+        </figure>
+        <p>Tim Berners-Lee invented the World Wide Web, creating a global system of interconnected computer networks.</p>
         <footer>
           <button>Learn More</button>
         </footer>
       </article>
     </section>
   </main>
-  <div id="modal" role="dialog" aria-modal="true" hidden>   </div>
+
+  
 
 </body>
 </html>
